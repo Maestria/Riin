@@ -179,7 +179,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.Config" />
+    <None Include="App.Config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Riin.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>Riin.Context.cs</LastGenOutput>
