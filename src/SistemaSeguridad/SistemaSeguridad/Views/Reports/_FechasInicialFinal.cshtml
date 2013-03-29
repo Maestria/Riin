@@ -28,11 +28,12 @@
 <script type="text/javascript">
     $(document).ready(function () {
         var dt = new Date();
+        var dts = dt.toString('yy/mm/dd');
 
-        $("#txtFechaInicio").val(formatDate(dt, 1));
+        $("#txtFechaInicio").val();
         $("#txtFechaInicio").datepicker({ dateFormat: 'yy/mm/dd' });
 
-        $("#txtFechaFinal").val(formatDate(dt, 1));
+        $("#txtFechaFinal").val();
         $("#txtFechaFinal").datepicker({ dateFormat: 'yy/mm/dd' });
     });
 </script>

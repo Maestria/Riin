@@ -47,7 +47,7 @@ namespace SistemaSeguridad.Reports
                 GetQryStrParam("EstadoId", ref reportParameters);
                 //TryIt("CiudadId", ref reportParameters);
                 GetQryStrParam("ZonaId", ref reportParameters);
-                GetQryStrParam("ConsolidadoFlg", ref reportParameters);
+                //GetQryStrParam("ConsolidadoFlg", ref reportParameters);
                 GetQryStrParam("MesInicial", ref reportParameters);
                 GetQryStrParam("MesFinal", ref reportParameters);
                 GetQryStrParam("AnioInicial", ref reportParameters);

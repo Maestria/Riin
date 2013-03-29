@@ -49,7 +49,7 @@ namespace SistemaSeguridad.Controllers
             if (values[1].Check()) parametros.Append("&EstadoId=" + values[1]);
             if (values[2].Check()) parametros.Append("&CiudadId=" + values[2]);
             if (values[3].Check()) parametros.Append("&ZonaId=" + values[3]);
-            if (values[4].Check()) parametros.Append("&ConsolidadoFlg=" + values[4]);
+            //if (values[4].Check()) parametros.Append("&ConsolidadoFlg=" + values[4]);
 
             return parametros;
         }
